@@ -47,15 +47,16 @@ src/descuentos.py        8      0   100%
 --------------------------------------------------
 TOTAL                   64      0   100%
 ```
-##5.Lectura de Resultados
+## 5. Lectura de los resultados: 
 Se logró alcanzar una cobertura del 100% en los tres módulos analizados (calculadora.py, conversor.py y descuentos.py). Esto indica que durante la ejecución del conjunto de 15 pruebas unitarias, todas las líneas de código, declaraciones y bifurcaciones condicionales (if/else) fueron ejecutadas al menos una vez, validando tanto los caminos de éxito como el lanzamiento de excepciones.
 
 Las capturas de pantalla de la ejecución de las pruebas unitarias (errores iniciales en rojo, 15 pruebas pasadas en verde y reporte de cobertura del 100%) se encuentran adjuntas en el documento:
 * [Evidencias de las pruebas.docx](./Evidencias%20de%20las%20pruebas.docx)
 
-##6. Reflexión Final
+  
+## 6. Reflexion 
 ¿Qué NO mide la cobertura de código?
 La cobertura de código únicamente mide el porcentaje de líneas que fueron ejecutadas durante la corrida de los tests, pero no garantiza la calidad ni la corrección lógica del software. Un módulo puede tener un 100% de cobertura y aún así contener bugs de lógica, no considerar casos de borde complejos, pasar por alto requerimientos de negocio o no evaluar adecuadamente el rendimiento y la seguridad del sistema.
 
-Aprendizaje
+## 7. Aprendizaje
 A través de este taller comprendí la importancia del desarrollo guiado por pruebas y el rol crítico que juegan las pruebas unitarias dentro del ciclo DevOps. Aprendí a identificar excepciones no controladas y errores sutiles de lógica matemática, así como la importancia de estructurar correctamente las aserciones para prevenir que errores de código lleguen a entornos de producción.
