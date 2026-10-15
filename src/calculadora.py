@@ -1,34 +1,21 @@
-"""
-Módulo de calculadora con funciones matemáticas básicas.
-ATENCIÓN: Hay 2 bugs ocultos en este archivo.
-"""
-
 def sumar(a, b):
-    """Suma dos números."""
     return a + b
 
 def restar(a, b):
-    """Resta dos números."""
     return a - b
 
 def multiplicar(a, b):
-    """Multiplica dos números."""
     return a * b
 
 def dividir(a, b):
-    """Divide dos números."""
     if b == 0:
         raise ValueError("No se puede dividir por cero")
     return a / b
 
-def potencia(base, exponente):
-    """Calcula la potencia de un número."""
-    return base ** exponente
-
-def raiz_cuadrada(numero):
-    """Calcula la raíz cuadrada de un número."""
-    # BUG 1: No maneja números negativos
-    return numero ** 0.5
+def raiz_cuadrada(a):
+    if a < 0:
+        raise ValueError("No se puede calcular la raiz cuadrada de un numero negativo")
+    return a ** 0.5
 
 def promedio(lista):
     """Calcula el promedio de una lista de números."""
