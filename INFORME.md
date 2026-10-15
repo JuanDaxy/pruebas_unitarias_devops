@@ -18,5 +18,6 @@
    - **Error:** Tenía un error en la fórmula matemática, multiplicando en lugar de dividir por el factor de conversión 1.60934.
    - **Solución:** Se corrigió el operador multiplicativo `*` por el operador de división `/`.
 
-## 3. Cobertura de Código
-*(La sección de cobertura se genera automáticamente mediante pytest-cov)*
+## 3. Evidencias Clave
+Las capturas de pantalla de la ejecución de las pruebas unitarias (errores iniciales en rojo, 15 pruebas pasadas en verde y reporte de cobertura del 100%) se encuentran adjuntas en el documento:
+* [Evidencias de las pruebas.docx](./Evidencias%20de%20las%20pruebas.docx)
